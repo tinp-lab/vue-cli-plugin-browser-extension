@@ -131,7 +131,7 @@ module.exports = (api, options) => {
     // configure webpack-extension-reloader for automatic reloading of extension when content and background scripts change (not HMR)
     // enabled only when webpack mode === 'development'
     if (!isProduction) {
-      webpackConfig.plugin('extension-reloader').use(ExtensionReloader, [{ entries, ...extensionReloaderOptions }])
+//       webpackConfig.plugin('extension-reloader').use(ExtensionReloader, [{ entries, ...extensionReloaderOptions }])
     }
 
     if (webpackConfig.plugins.has('copy')) {
