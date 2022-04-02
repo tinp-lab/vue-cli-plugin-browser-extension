@@ -29,7 +29,7 @@
     "imports-loader": "^3.1.1",
     "webextension-polyfill": "^0.8.0",
     "webpack": "^5.54.0",
-    "webpack-ext-reloader": "reorx/webpack-ext-reloader",
+    "webpack-ext-reloader": "git@github.com:reorx/webpack-ext-reloader.git",
     "zip-webpack-plugin": "^4.0.1"
   }
 }
